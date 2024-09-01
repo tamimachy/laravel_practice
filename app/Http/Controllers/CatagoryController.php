@@ -17,5 +17,8 @@ class CatagoryController extends Controller
         // return view('catagory.index')->with('emp1','MS Word');
         return view('catagory.index',$data);
     }
+    public function main(){
+        return view('layouts.test');
+    }
     
 }
